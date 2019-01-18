@@ -1,4 +1,4 @@
-import java.sql.SQLException;
+ï»¿import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,7 +17,7 @@ public class demo {
 			//
 			System.out.println("insert-------------------------------------------");
 			row = new HashMap<String, Object>();
-			row.put("name", "jues±Ê¼Ç");
+			row.put("name", "juesç¬”è®°");
 			row.put("url", "http://note.jues.org.cn");
 			// insert
 			long id = mysql.insert(table, row);
@@ -28,7 +28,7 @@ public class demo {
 
 			System.out.println("update-------------------------------------------");
 			row = new HashMap<String, Object>();
-			row.put("name", "Java¼òµ¥²Ù×÷MySQL");
+			row.put("name", "Javaç®€å•æ“ä½œMySQL");
 			row.put("url", "http://note.jues.org.cn/node/137");
 
 			// update

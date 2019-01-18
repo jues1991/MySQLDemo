@@ -1,4 +1,4 @@
-package pers.jues.SQL;
+﻿package pers.jues.SQL;
 
 import java.sql.DriverManager;
 import java.sql.ResultSet;
